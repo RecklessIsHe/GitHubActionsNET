@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
+        # Runs 2 build jobs
         dotnet-version: [ '3.1.x', '6.0.x' ]
 
     steps:

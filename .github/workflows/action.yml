@@ -1,3 +1,7 @@
+# This GH Actions file does the following:
+# - Build and Test a sample .NET application
+# - Build a Docker image and push to GH Packages
+
 name: dotnet package
 
 on: [push]
